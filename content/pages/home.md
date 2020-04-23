@@ -1,30 +1,41 @@
 ---
 template: HomePage
 slug: ''
-title: Yellowcake
-featuredImage: 'https://ucarecdn.com/159203d3-881d-4218-baa1-ca4427b48d0d/'
-subtitle: ' Welcome to the ultimate Gatsby and Netlify starter project.'
+title: 세친구들(3Buddies)
+featuredImage: 'https://ucarecdn.com/deff42ff-57fd-448a-ace1-0fe241a6a2ab/'
+subtitle: '영화/여행/게임 세가지 주제의 개인 블로그입니다.'
 meta:
-  description: This is a meta description.
-  title: The Ultimate Gatsby Starter
+  description: 세 사람이 길을 가면 반드시 스승으로 받들 만한 사람이 있다.
+  title: 三人行必有我師
 ---
-Yellowcake is an opinionated starter project created by [Thrive Digital](https://thriveweb.com.au/) a [Gold Coast Web Design](https://thriveweb.com.au/) studio. to help you create lightening fast websites with [Gatsby](https://gatsbyjs.org) and [Netlify CMS](https://netlifycms.org).
+> 子曰 三人行, 必有我師焉
+> 자왈 삼인행 필유아사언 
+>
+> 擇其善者而從之, 其不善者而改之
+> 택기선자이종지 기불선자이개지
+>
+> -論語 述而篇(논어 술이편)
 
-View the [project overview](https://thriveweb.com.au/the-lab/yellowcake-gatsby-react-js-starter-project/) and the [docs](https://github.com/thriveweb/yellowcake/blob/master/README.md).
+좋아하는 구절입니다. 그 뜻은...
 
-# Features
+"공자가 말하길, 세 사람이 길을 가면 그중에 반드시 나의 스승이 될 만한 사람이 있다. 좋은 사람이라면 장점을 가려 이를 따르고, 좋지 않은 사람이면 단점을 교훈 삼아 자신을 바로잡을 수 있기 때문이다."
 
-* **[Gatsby](https://gatsbyjs.org)** static site generator
-* **[Netlify CMS](https://github.com/netlify/netlify-cms)** for content management
-* Dynamic menus and forms
-* **[Mailchimp](http://mailchimp.com)** and **[Uploadcare](https://uploadcare.com)** integrations
-* Fully responsive layout for mobile and widescreen browsing
-* Blog searching and paging functionality
-* Seamless image and content sliders
-* Instagram feed integration
+위 구절은 세상사람 모두가 나의 스승이 될 수 있다는 의미인데요, 하나 더 생각나는 구절이 있습니다.
 
-## Get started
+> 敏而好學, 不恥下問, 是以謂之文也
 
-View the [Netlify CMS Docs](https://www.netlifycms.org/docs/) and the [Netlify CMS Repo](https://github.com/netlify/netlify-cms).
+공자의 제자인 자공이 공자에게 문(文)이란 시호가 내려진 이유를 묻자 
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/thriveweb/yellowcake&stack=cms)
+ "민첩하고 배우기를 좋아하며, 아랫사람에게 묻는 것을 부끄럽게 여기지 않았기 때문에 시호를 문(文)으로 했다."
+
+ 라고 대답했다고 합니다.
+
+ 요즘 수평 문화를 강조하는 기업이 많아지고 있는데요, 단지 입사를 일찍했다거나 경력이 많다고 높은 지위에 있는 것을 배제하고 후배들에게 묻는 것을 부끄럽게 생각하지 않으며 끊임없이 배우고 노력하는 실력있는 사람들이 더 쓰임받는 기업들이 살아남을 것입니다.
+
+이 곳은 제가 좋아하는 세가지 주제에 대해 나누는 공간입니다. 여기서 여러분들이 필요로 하는 정보를 얻어 가실 수 있으면 좋겠습니다. 
+
+# Theme
+
+* [영화](/post-categories/movies/)
+* [여행](/post-categories/travel/)
+* [게임](/post-categories/games/)
