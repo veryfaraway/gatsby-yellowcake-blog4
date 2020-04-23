@@ -80,6 +80,14 @@ module.exports = {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
+          {
+            resolve: "gatsby-remark-images-grid",
+            options: {
+                className: "myCustomClassName",
+                gridGap: "10px",
+                margin: "10px auto",
+            },
+        },
           // gatsby-remark-relative-images must
           // go before gatsby-remark-images
           'gatsby-remark-relative-images',
@@ -90,7 +98,7 @@ module.exports = {
               linkImagesToOriginal: false
             }
           },
-          `gatsby-remark-responsive-iframe`
+          `gatsby-remark-responsive-iframe`,
         ]
       }
     },
