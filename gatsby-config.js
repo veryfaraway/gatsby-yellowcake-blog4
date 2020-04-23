@@ -84,8 +84,8 @@ module.exports = {
             resolve: "gatsby-remark-images-grid",
             options: {
                 className: "myCustomClassName",
-                gridGap: "10px",
-                margin: "10px auto",
+                gridGap: "20px",
+                margin: "20px auto",
             },
         },
           // gatsby-remark-relative-images must
