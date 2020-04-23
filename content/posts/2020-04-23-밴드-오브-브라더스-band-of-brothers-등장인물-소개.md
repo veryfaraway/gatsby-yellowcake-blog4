@@ -8,9 +8,9 @@ excerpt: |+
   밴드 오브 브라더스 에피소드 및 등장인물 소개
 
 categories:
-  - category: Movies
+  - category: Series
 meta:
-  canonicalLink: band of brothers characters
+  canonicalLink: band-of-brothers-characters
   description: Band of Brothers Character Introduction
   title: Band of Brothers
 ---
