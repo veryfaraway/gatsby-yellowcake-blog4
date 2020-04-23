@@ -78,8 +78,8 @@ meta:
 
 * 로널드 스피어스 대위 Capt. Ronald Speirs (매튜 세틀 Matthew Settle)
 ```grid|2
-![배우](https://ucarecdn.com/7beca7e1-ee56-48bc-93bc-67bc5561f018/)
-![실물](https://ucarecdn.com/20113159-4fdf-411d-8858-a7b6ad3a7507/)
+![배우](https://ucarecdn.com/6dabdae1-cafb-4b70-8b29-55040be834cd/)
+![실물](https://ucarecdn.com/69687dcc-9331-4e6b-affc-79cbd36d3e20/)
 ```
   * 도그 중대 소대장이었다가 7부에서 이지 중대장으로 취임, 9부에서부터 대위로 등장합니다. 
   * 그 저돌적인 스타일로 사병들에게는 피의 스피어스(Bloody Speirs)로, 장교들간에는 열혈남아 스피어스(Sparky Speirs) 라는 별명이 붙었습니다. 
