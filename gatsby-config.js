@@ -1,4 +1,10 @@
+require(`dotenv`).config({
+  path: `.env`,
+})
+
 const postcssPresetEnv = require('postcss-preset-env')
+
+console.log(`>>> GAS_ID: ${process.env.GOOGLE_ADS_ID}`)
 
 module.exports = {
   siteMetadata: {
@@ -102,7 +108,12 @@ module.exports = {
         ]
       }
     },
-
+    {
+      resolve: `gatsby-plugin-google-adsense`,
+      options: {
+        publisherId: process.env.GOOGLE_ADS_ID
+      },
+    },
     // css (replace with gatsby-plugin-sass for v2)
     {
       resolve: `gatsby-plugin-sass`,
