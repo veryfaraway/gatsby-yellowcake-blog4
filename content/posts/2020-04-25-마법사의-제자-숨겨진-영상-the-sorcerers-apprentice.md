@@ -1,6 +1,6 @@
 ---
 template: SinglePost
-title: 마법사의 제자 숨겨진 영상(The Sorcerer's Apprentice)
+title: 마법사의 제자(The Sorcerer's Apprentice) 숨겨진 영상
 status: Published
 date: '2020-04-25'
 featuredImage: 'https://ucarecdn.com/1dafdba2-9da9-4dae-b5d7-6f9d3e6580ca/'
