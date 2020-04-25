@@ -4,8 +4,6 @@ require(`dotenv`).config({
 
 const postcssPresetEnv = require('postcss-preset-env')
 
-console.log(`>>> GAS_ID: ${process.env.GOOGLE_ADS_ID}`)
-
 module.exports = {
   siteMetadata: {
     title: '3Buddies',
@@ -18,8 +16,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-google-tagmanager',
       options: {
-        /*id: 'GTM-add_your_tag_here',*/
-        id: 'GTM-P4RNF8D',
+        id: process.env.GOOGLE_TM_ID,
         includeInDevelopment: false
       }
     },
