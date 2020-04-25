@@ -12,6 +12,7 @@ module.exports = {
     siteUrl: 'https://3buddies.viewtreefull.com'
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-yaml',
     {
