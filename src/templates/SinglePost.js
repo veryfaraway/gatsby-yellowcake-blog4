@@ -7,13 +7,16 @@ import Content from '../components/Content'
 import Layout from '../components/Layout'
 import './SinglePost.css'
 
+import { DiscussionEmbed } from 'disqus-react' 
+
 export const SinglePostTemplate = ({
   title,
   date,
   body,
   nextPostURL,
   prevPostURL,
-  categories = []
+  categories = [],
+  disqusConfig,
 }) => (
   <main>
     <article
@@ -81,6 +84,13 @@ export const SinglePostTemplate = ({
               </Link>
             )}
           </div>
+          <div>
+            <br/>
+            <hr/>
+            <br/>
+            <DiscussionEmbed {...disqusConfig} /> 
+          </div>
+
         </div>
       </div>
     </article>
@@ -90,6 +100,14 @@ export const SinglePostTemplate = ({
 // Export Default SinglePost for front-end
 const SinglePost = ({ data: { post, allPosts } }) => {
   const thisEdge = allPosts.edges.find(edge => edge.node.id === post.id)
+  const commentConfig = {
+    shortname: `3buddies-viewtreefull-com`,
+    config: { 
+      identifier: post.id,
+      title: post.frontmatter.title,
+    },
+  }
+
   return (
     <Layout
       meta={post.frontmatter.meta || false}
@@ -101,6 +119,7 @@ const SinglePost = ({ data: { post, allPosts } }) => {
         body={post.html}
         nextPostURL={_get(thisEdge, 'next.fields.slug')}
         prevPostURL={_get(thisEdge, 'previous.fields.slug')}
+        disqusConfig={commentConfig}
       />
     </Layout>
   )
@@ -122,7 +141,7 @@ export const pageQuery = graphql`
         title
         template
         subtitle
-        date(formatString: "MMMM Do, YYYY")
+        date(formatString: "YYYY-MM-DD")
         categories {
           category
         }
