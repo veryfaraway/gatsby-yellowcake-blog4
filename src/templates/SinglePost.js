@@ -101,7 +101,7 @@ export const SinglePostTemplate = ({
 const SinglePost = ({ data: { post, allPosts } }) => {
   const thisEdge = allPosts.edges.find(edge => edge.node.id === post.id)
   const commentConfig = {
-    shortname: `3buddies-viewtreefull-com`,
+    shortname: process.env.GATSBY_DISQUS_NAME,
     config: { 
       identifier: post.id,
       title: post.frontmatter.title,

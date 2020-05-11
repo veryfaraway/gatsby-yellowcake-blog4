@@ -112,12 +112,6 @@ module.exports = {
         publisherId: process.env.GOOGLE_ADS_ID
       },
     },
-    {
-      resolve: `gatsby-plugin-disqus`,
-      options: {
-        shortname: process.env.GATSBY_DISQUS_NAME
-      }
-    },
     // css (replace with gatsby-plugin-sass for v2)
     {
       resolve: `gatsby-plugin-sass`,
