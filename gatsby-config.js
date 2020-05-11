@@ -112,6 +112,12 @@ module.exports = {
         publisherId: process.env.GOOGLE_ADS_ID
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: process.env.GOOGLE_ANALYTICS_ID,
+      },
+    },
     // css (replace with gatsby-plugin-sass for v2)
     {
       resolve: `gatsby-plugin-sass`,
