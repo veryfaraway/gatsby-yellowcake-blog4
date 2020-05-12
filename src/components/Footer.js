@@ -13,12 +13,13 @@ export default () => (
     <br />
     <InstagramFeed count="8" />
     */}
+
     <footer className="footer">
       <div className="InstagramFeed">
         <Helmet>
-          <script src="https://ads-partners.coupang.com/g.js" />
-          <script>{`new PartnersCoupang.G({ "id":234828 });`}</script>
-        </Helmet>
+            <script src="https://ads-partners.coupang.com/g.js" />
+            <script>{`new PartnersCoupang.G({ "id":234828,"subId":null });`}</script>
+          </Helmet>
       </div>
       <div className="container taCenter">
         <span>
