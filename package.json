@@ -68,7 +68,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "browserslist": "4.12.0",
+    "browserslist": "4.16.5",
     "caniuse-lite": "^1.0.30001046",
     "del-cli": "^3.0.0",
     "prettier": "^1.18.2"
